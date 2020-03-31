@@ -1,0 +1,106 @@
+
+body{
+    background-color: aquamarine;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.title {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.div_general {
+    height: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    /* align-content: space-around; */
+    background-color: white;
+    border-radius: 10px;
+}
+.inputs{
+    width: 50%;
+    /* background-color: blue; */
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.inputs__input{
+    margin-bottom: 20px;
+}
+.inputs__gastos{
+    display: block;
+    margin-bottom: 10px;
+}
+.inputs__cantidad{
+    display: block;
+    margin-bottom: 10px;
+}
+.div_right{
+    width: 50%;
+    /* background-color: brown; */
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.inputs__subtitle{
+    text-align: center;
+    color: grey;
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+.list__subtitle{
+    text-align: center;
+    color: grey;
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+.limite_list{
+    max-height: 200px;
+    overflow: scroll;
+    margin-bottom: 35px;
+}
+.presupuesto{
+    background-color: #05dfd7;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.presupusto-saldo__presupuesto-title{
+    font-weight: 700;
+}
+.presupusto__saldo__saldo-title{
+    font-weight: 700;  
+}
+.saldo{
+    background-color: #a7e9af;
+    padding: 10px;
+    border-radius: 5px;
+}
+.div_item_list{
+    /* margin: 30px; */
+    display: flex;
+    justify-content: space-between;
+}
+.amarillo{
+    background-color: #ffe196;
+}
+.rojo{
+    background-color: #eb4d55;
+}
+
+
+
+
+.div_icons{
+    display: flex;
+    background-color: yellow;
+}
+.icon{
+    background-color: #eb4d55;
+    margin-left: 10px;
+    align-self: flex-end;
+    color: aqua;
+}

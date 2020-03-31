@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Gasto Semanal</title>
+</head>
+<body>
+    <h1 class="title">Gasto semanal</h1>
+
+    
+    <div class="div_general">
+        <div class="inputs">
+            <h2 class="inputs__subtitle">Añade tus gastos aquí</h2>
+            <span class="inputs__gastos">Gasto:</span>
+            <input type="text" placeholder="Nombre Gasto" id="nombre_gasto" class="form-control inputs__input">
+
+            <span class="inputs__cantidad">Cantidad:</span>
+            <input type="text" placeholder="Cantidad en S/." id="cantidad_gasto" class="form-control inputs__input"><br>
+            <button id="addButton" class="btn btn-primary">Calcular</button>
+        </div>
+
+        <div class="div_right">
+            <div class="list">
+                <h2 class="list__subtitle">Listado</h2>
+                <ul id="lista" class="ul_lista list-group limite_list">
+                </ul>
+            </div>
+            <div class="presupusto-saldo">
+                <div class="presupuesto">
+                    <span class="presupusto-saldo__presupuesto-title">Presupuesto: $ </span>
+                    <span id="presupuesto__monto">0</span>
+                </div>
+                <div class="saldo" id="id_saldo">
+                    <span class="presupusto__saldo__saldo-title">Restante: $ </span>
+                    <span id="saldo__monto">0</span>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
