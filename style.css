@@ -84,23 +84,11 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.amarillo{
-    background-color: #ffe196;
-}
-.rojo{
-    background-color: #eb4d55;
-}
-
-
-
-
 .div_icons{
     display: flex;
-    background-color: yellow;
 }
 .icon{
-    background-color: #eb4d55;
     margin-left: 10px;
     align-self: flex-end;
-    color: aqua;
+    color: black
 }
